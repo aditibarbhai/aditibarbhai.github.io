@@ -9,7 +9,7 @@ const Sidebar = () => (
   <div className={styles.sidebar}>
     <Avatar
       className={styles.profilePic}
-      src="/images/pusheen-coding-small.jpeg"
+      src="/profile.jpeg"
       alt="aditi profile"
     />
     <p className={styles.profileBlurb}>

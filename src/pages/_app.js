@@ -9,7 +9,7 @@ const MyApp = ({ Component, pageProps }) => (
     <Head>
       <link rel="icon"
         type="image/png"
-        href="/images/code.jpg" />
+        href="/code.jpg" />
     </Head>
     <Layout>
       <Component {...pageProps} />

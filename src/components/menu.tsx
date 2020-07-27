@@ -9,6 +9,9 @@ const Menu = () => (
       <Social />
     </Button>
     <Button>
+      <a href="/"> Home </a>
+    </Button>
+    <Button>
       <a href="/about"> About </a>
     </Button>
     <Button>

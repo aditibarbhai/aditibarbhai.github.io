@@ -9,7 +9,9 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
   <main className={styles.page}>
-    <Sidebar />
+    <div className={styles.sidebarContainer}>
+      <Sidebar />
+    </div>
     { children }
   </main>
 );

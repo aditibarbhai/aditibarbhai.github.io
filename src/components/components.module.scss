@@ -12,13 +12,21 @@
   }
 }
 
+.sidebarContainer {
+  flex: 1 0 30%;
+}
+
 .sidebar {
-  background-image: url('/images/home.jpg');
+  @media (min-width: $desktop) {
+    position: fixed;
+    width: 30%;
+  }
+
+  height: 100%;
+  background-image: url('/home.jpg');
   background-position: center;
   background-size: cover;
   color: #ffffff;
-  flex: 1 0 30%;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
