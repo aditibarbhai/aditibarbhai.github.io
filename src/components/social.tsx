@@ -1,6 +1,7 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
 import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi';
+import Link from './link';
 
 import styles from './components.module.scss';
 
@@ -9,20 +10,20 @@ type SocialProps = {
 };
 
 const Social:React.FC<SocialProps> = ({ className }) => (
-  <IconContext.Provider value={{ color: 'white', size:'20px' }}>
+  <IconContext.Provider value={{ color: 'white', size: '20px' }}>
     <div className={`${styles.social} ${className || ''}`}>
-      <a href="https://github.com/aditibarbhai" rel="noreferrer" target="_blank">
+      <Link type="external" href="https://github.com/aditibarbhai">
         <FiGithub />
-      </a>
-      <a href="http://ca.linkedin.com/in/aditibarbhai"rel="noreferrer" target="_blank">
+      </Link>
+      <Link type="external" href="https://ca.linkedin.com/in/aditibarbhai">
         <FiLinkedin />
-      </a>
-      <a href="https://twitter.com/aditibarbhai"rel="noreferrer" target="_blank">
+      </Link>
+      <Link type="external" href="https://twitter.com/aditibarbhai">
         <FiTwitter />
-      </a>
-      <a href="mailto:aditi.barbhai@gmail.com">
+      </Link>
+      <Link type="external" href="mailto:aditi.barbhai@gmail.com">
         <FiMail />
-      </a>
+      </Link>
     </div>
   </IconContext.Provider>
 );

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from './link';
 import styles from './components.module.scss';
 
 const Copyright = () => (
@@ -7,7 +8,7 @@ const Copyright = () => (
       &copy; 2020 Aditi Barbhai
     </p>
     <p>
-      Photo by <a target="_blank" rel="noreferrer" href="https://unsplash.com/@8moments"> Simon Berger </a>
+      Photo by <Link type="external" href="https://unsplash.com/@8moments"> Simon Berger </Link>
     </p>
   </div>
 );

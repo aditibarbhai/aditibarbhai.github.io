@@ -5,7 +5,36 @@
 }
 
 .about {
-    img {
-        height: 100px;
+    h1 {
+        @extend .cursive
     }
+
+    .iconsList {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        img {
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .smallIconsList {
+        @extend .iconsList;
+
+        img {
+            max-height: 40px;
+        }
+    }
+
+    //img {
+    //    //border: 1px solid lightgrey;
+    //    //border-radius: 30%;
+    //
+    //    &:not(:last-child) {
+    //        margin-right: 10px;
+    //    }
+    //}
 }
