@@ -1,0 +1,78 @@
+@import "../styles/utils";
+
+.page {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  @media (min-width: $desktop) {
+    flex-direction: row;
+  }
+}
+
+.sidebar {
+  background-image: url('/images/home.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  flex: 1 0 30%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .profilePic {
+    height: 200px;
+    width: 200px;
+
+    @media (max-width: $desktop) {
+      display: none;
+    }
+  }
+
+  .profileBlurb {
+    text-align: center;
+    font-weight: 500;
+
+    @media (max-width: $desktop) {
+      display: none;
+    }
+  }
+}
+
+.social {
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+}
+
+.menu {
+  button {
+    border-color: white !important;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.copyright {
+  font-size: 10px;
+  position: fixed;
+  bottom: 20px;
+
+  a {
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+}

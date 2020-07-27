@@ -1,3 +1,3 @@
-# aditibarbhai.github.io
+# Hello, world!
 
-This repo is for my website, aditibarbhai.com
+This repo is for my website, www.aditibarbhai.com

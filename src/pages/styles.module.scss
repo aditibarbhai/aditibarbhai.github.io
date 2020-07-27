@@ -1,0 +1,10 @@
+@import "../styles/utils";
+
+.cursive {
+    font-family: $cursive;
+}
+
+.content {
+    flex: 1 0 70%;
+    align-self: center;
+}
