@@ -3,9 +3,11 @@ import styles from './components.module.scss';
 
 const Copyright = () => (
   <div className={styles.copyright}>
-    &copy; 2020 Aditi Barbhai
     <p>
-      Photo by <a href="https://unsplash.com/@8moments"> Simon Berger </a>
+      &copy; 2020 Aditi Barbhai
+    </p>
+    <p>
+      Photo by <a target="_blank" rel="noreferrer" href="https://unsplash.com/@8moments"> Simon Berger </a>
     </p>
   </div>
 );

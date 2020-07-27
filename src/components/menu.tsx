@@ -1,23 +1,14 @@
 import React from 'react';
 import styles from './components.module.scss';
-import { Button, ButtonGroup } from '@material-ui/core';
 import Social from './social';
 
 const Menu = () => (
-  <ButtonGroup orientation="vertical" variant="text" className={styles.menu}>
-    <Button>
-      <Social />
-    </Button>
-    <Button>
-      <a href="/"> Home </a>
-    </Button>
-    <Button>
-      <a href="/about"> About </a>
-    </Button>
-    <Button>
-      <a href="/blog"> Blog </a>
-    </Button>
-  </ButtonGroup>
+  <div className={styles.menu}>
+    <Social className={styles.menuItem} />
+    <a className={styles.menuItem} href="/"> Home </a>
+    <a className={styles.menuItem} href="/about"> About </a>
+    <a className={styles.menuItem} href="/blog"> Blog </a>
+  </div>
 );
 
 export default Menu;

@@ -1,11 +1,11 @@
 import React from 'react';
-import Container from '@material-ui/core/Container';
+import Container from '../components/container';
 
 import styles from './styles.module.scss';
 
 const About = () => (
   <>
-    <Container className={`${styles.content} ${styles.about}`}>
+    <Container className={styles.about}>
       <img src="/react.svg" alt="React.js" />
       <img src="/nextjs.png" alt="Next.js" />
       # Tech Stack

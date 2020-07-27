@@ -1,17 +1,16 @@
 import React from 'react';
-import { Avatar } from '@material-ui/core';
 import Menu from './menu';
 import Copyright from './copyright';
 
 import styles from './components.module.scss';
 
-const Sidebar = () => (
-  <div className={styles.sidebar}>
-    <Avatar
-      className={styles.profilePic}
-      src="/profile.jpeg"
-      alt="aditi profile"
-    />
+type SidebarProps = {
+  className?: string;
+}
+
+const Navigation: React.FC<SidebarProps> = ({ className }) => (
+  <div className={`${styles.navigation} ${className || ''}`}>
+    <img src="/profile.jpeg" className={styles.profilePic} />
     <p className={styles.profileBlurb}>
       software developer, creator, cat person
     </p>
@@ -20,4 +19,4 @@ const Sidebar = () => (
   </div>
 );
 
-export default Sidebar;
+export default Navigation;

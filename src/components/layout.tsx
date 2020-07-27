@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from './sidebar';
+import Navigation from './navigation';
 
 import styles from './components.module.scss';
 
@@ -8,11 +8,11 @@ type LayoutProps = {
 };
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
-  <main className={styles.page}>
-    <div className={styles.sidebarContainer}>
-      <Sidebar />
+  <main className={styles.layout}>
+    <Navigation className={styles.sidebar} />
+    <div className={styles.content}>
+      { children }
     </div>
-    { children }
   </main>
 );
 

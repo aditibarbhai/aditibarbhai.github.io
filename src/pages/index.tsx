@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Container from '@material-ui/core/Container';
+import Container from '../components/container';
 
 import styles from './styles.module.scss';
 
@@ -9,7 +9,7 @@ const Index = () => (
     <Head>
       <title>Aditi Barbhai - Home</title>
     </Head>
-    <Container className={styles.content}>
+    <Container>
       <h1 className={styles.cursive}>
         Hello! 🙋‍♀️ <br /> My name is Aditi.
       </h1>
