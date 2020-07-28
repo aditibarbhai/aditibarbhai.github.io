@@ -28,7 +28,7 @@ const Index = () => (
       </p>
       <p>
         Take a look around and read through to find out more <Link type="internal" href="/about">about me</Link>,
-        or drop me a line at aditi [dot] barbhai [at] gmail [dot] com!
+        or get in touch with me at aditi [dot] barbhai [at] gmail [dot] com!
         {/*  TODO: look into "MailHide" to obscure email address and save it from spambots */}
       </p>
     </Container>

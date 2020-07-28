@@ -19,7 +19,7 @@ const About = () => (
       </p>
       <p>
         As a developer, I have a full stack experience with a front-end focus - my goal is to create awesome user experiences backed by well-written, scalable apps.
-        Clean, easy to read code = 🖤.
+        Clean, easy to read code = ❤
       </p>
       <p>
         I love collaborating! In my current role, I work closely with designers, product owners and fellow developers.
@@ -32,9 +32,10 @@ const About = () => (
       <div className={styles.iconsList}>
         <img src="/icons/javascript.png" alt="javascript" />
         <img src="/icons/react-colourful.png" alt="react.js" />
-        <img src="/icons/react-native.png" alt="react native" />
-        <img src="/icons/nodejs.png" alt="node.js" />
         <img src="/icons/redux.png" alt="redux" />
+        <img src="/icons/nodejs.png" alt="node.js" />
+        <img src="/icons/react-native.png" alt="react native" />
+        <img src="/icons/nextjs.png" alt="next.js" />
         <img src="/icons/sass.png" alt="sass" />
         <img src="/icons/postgresql.png" alt="postgresql sql" />
       </div>

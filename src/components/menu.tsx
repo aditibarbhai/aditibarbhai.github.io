@@ -8,7 +8,7 @@ const Menu = () => (
     <Social className={styles.menuItem} />
     <Link type="internal" className={styles.menuItem} href="/"> Home </Link>
     <Link type="internal" className={styles.menuItem} href="/about"> About </Link>
-    <Link type="internal" className={styles.menuItem} href="/blog"> Blog </Link>
+    <Link type="external" className={styles.menuItem} href="https://aditibarbhai.wordpress.com/"> Blog </Link>
   </div>
 );
 

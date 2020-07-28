@@ -1,4 +1,5 @@
 import React from 'react';
+import NextLink from 'next/link';
 
 type LinkProps = {
   type: 'internal' | 'external';
@@ -13,19 +14,26 @@ const Link: React.FC<LinkProps> = ({
   children,
   ...otherProps
 }) => {
-  const props = {
-    ...(type === 'external' && { target: '_blank', rel: 'noreferrer' })
-  };
+  if (type === 'external') {
+    return (
+      <a
+        href={href}
+        className={className}
+        target="_blank"
+        rel="noreferrer"
+        {...otherProps}
+      >
+        { children }
+      </a>
+    );
+  }
 
   return (
-    <a
-      href={href}
-      className={className}
-      {...props}
-      {...otherProps}
-    >
-      { children }
-    </a>
+    <NextLink href={href}>
+      <a className={className} {...otherProps}>
+        { children }
+      </a>
+    </NextLink>
   );
 };
 
