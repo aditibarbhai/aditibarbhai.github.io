@@ -1,0 +1,32 @@
+@import "../styles/utils";
+
+.cursive {
+    font-family: $cursive;
+}
+
+.about {
+    h1 {
+        @extend .cursive
+    }
+
+    .iconsList {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        img {
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
+            max-height: 50px;
+        }
+    }
+
+    .smallIconsList {
+        @extend .iconsList;
+
+        img {
+            max-height: 40px;
+        }
+    }
+}
