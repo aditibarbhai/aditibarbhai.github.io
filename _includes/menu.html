@@ -1,7 +1,7 @@
 <div class="menu">
     {% include social.html %}
     {% for item in site.data.navigation %}
-        <a href="{{ item.link | relative_url }}" class="menu-item {% if page.url == item.link %}current{% endif %}">
+        <a href="{{ item.link }}" class="menu-item {% if page.url == item.link %}current{% endif %}">
             {{ item.name }}
         </a>
     {% endfor %}

@@ -27,16 +27,18 @@ Tech Stack
 As a software developer, I work mostly in JavaScript land. These are the frameworks and tools I know and love:
 
 {:.icons-list}
-![javascript]({{ '/assets/images/icons/javascript.png' | relative_url }}) 
-![react.js]({{ '/assets/images//icons/react-colourful.png' | relative_url  }}) 
-![redux]({{ '/assets/images/icons/redux.png' | relative_url }}) 
-![node.js]({{ '/assets/images/icons/nodejs.png' | relative_url }}) 
-![react native]({{ '/assets/images/icons/react-native.png' | relative_url }}) 
-![next.js]({{ '/assets/images/icons/nextjs.png' | relative_url }}) 
-![sass]({{ '/assets/images/icons/sass.png' | relative_url }}) 
-![postgresql sql]({{ '/assets/images/icons/postgresql.png' | relative_url }})
+![javascript](/assets/images/icons/javascript.png) 
+![react.js](/assets/images//icons/react-colourful.png) 
+![redux](/assets/images/icons/redux.png) 
+![node.js](/assets/images/icons/nodejs.png) 
+![react native](/assets/images/icons/react-native.png) 
+![next.js](/assets/images/icons/nextjs.png) 
+![sass](/assets/images/icons/sass.png) 
+![postgresql sql](/assets/images/icons/postgresql.png)
 
-👩🏾‍💻   As I focus on Front End Development, I mostly work with **React.js, Redux and Node.js** to create clean, scalable web applications. Recently, I've been spending a lot of time working with **Next.js** which is great for **server side rendering** React apps and making them more SEO friendly.
+👩🏾‍💻   As I focus on Front End Development, I mostly work with **React.js, Redux and Node.js** to create clean, 
+scalable web applications. Recently, I've been spending a lot of time working with **Next.js** which is great for 
+**server side rendering** React apps and making them more SEO friendly.
 
 For styling, I prefer to use **Sass** where I can, though I have used Less and just pure CSS in past projects.
 
@@ -52,6 +54,6 @@ I've worked mostly with relational databases using everything from MS SQL Server
 
 No developer's stack is complete without **npm / yarn and git** .
 
-This site is made with ❤, Next.js, React and Sass, and hosted on GitHub Pages. {/\* To find out more about how to build a site like this see this blog post \*/} {/\* Or you can hire me to make one for you! \*/}
+This site is made with Jekyll and Sass, and hosted on GitHub Pages.
 
-You can find out more about my previous work experience here.
+You can find out more about [my previous work experience here](https://www.linkedin.com/in/{{site.linkedin_username}}){:target="_blank"}.
