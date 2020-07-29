@@ -1,0 +1,9 @@
+<div class="menu">
+    {% include social.html %}
+    {% for item in site.data.navigation %}
+        <a href="{{ item.link | relative_url }}" class="menu-item {% if page.url == item.link %}current{% endif %}">
+            {{ item.name }}
+        </a>
+    {% endfor %}
+    <a class="menu-item" href="https://aditibarbhai.wordpress.com/" target="_blank" rel="noreferrer"> Blog </a>
+</div>

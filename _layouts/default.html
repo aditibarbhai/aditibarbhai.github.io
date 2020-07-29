@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ site.title }} {% if page.title %} - {{ page.title }} {% endif %}</title>
+        <link rel="icon" type="image/png" href="/assets/images/code.jpg">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+    <body>
+        <main class="layout">
+            {% include navigation.html %}
+            <div class="content">
+                <div class="container">
+                    {{ content }}
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
