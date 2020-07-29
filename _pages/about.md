@@ -47,12 +47,15 @@ For styling, I prefer to use **Sass** where I can, though I have used Less and j
 I've worked mostly with relational databases using everything from MS SQL Server and Postgres to MySQL.
 
 {:.small-icons-list}
-![](/assets/images/icons/npm.png) 
-![](/assets/images/icons/yarn.png) 
-![](/assets/images/icons/git.png) 
-![](/assets/images/icons/octocat.png)
+![npm](/assets/images/icons/npm.png) 
+![yarn](/assets/images/icons/yarn.png) 
+![git](/assets/images/icons/git.png) 
+![github](/assets/images/icons/octocat.png)
 
 No developer's stack is complete without **npm / yarn and git** .
+
+{:.small-icons-list}
+![jekyll](/assets/images/icons/jekyll.svg) 
 
 This site is made with Jekyll and Sass, and hosted on GitHub Pages.
 
